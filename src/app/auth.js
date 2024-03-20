@@ -4,7 +4,6 @@ import { authConfig } from "./authconfig";
 import { connectToDB } from "./lib/utils";
 import { User } from "./lib/models";
 import bcrypt from "bcrypt";
-import { useRouter } from "next/router";
 
 const login = async (credentials) => {
   try {
