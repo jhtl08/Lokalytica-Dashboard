@@ -1,0 +1,62 @@
+.container {
+  position: fixed;
+}
+
+.item {
+  position: relative;
+  background-image: linear-gradient(to top, #182237, #253352);
+  padding: 20px 20px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.bgContainer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+}
+
+.bg {
+  object-fit: contain;
+  opacity: 0.2;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.notification {
+  font-weight: bold;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--text);
+  padding-right: 10px;
+}
+
+.subtitle,
+.description {
+  font-weight: 500;
+  font-size: 10px;
+  color: var(--textSoft);
+  padding-right: 20px;
+}
+
+.button {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--buttonColor);
+  color: var(--text);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: max-content;
+}
