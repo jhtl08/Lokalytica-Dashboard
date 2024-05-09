@@ -13,8 +13,8 @@ import {
 
 const Chart = () => {
   const data = [
-    { name: "2024-8", Consumption: 200.55, Cost: 10.8991 },
-    { name: "2024-9", Consumption: 199.3, Cost: 11.3997 },
+    { name: "2023-8", Consumption: 200.55, Cost: 10.8991 },
+    { name: "2023-9", Consumption: 199.3, Cost: 11.3997 },
     { name: "2023-10", Consumption: 205.57, Cost: 11.82 },
     { name: "2023-11", Consumption: 206.78, Cost: 12.0545 },
     { name: "2023-12", Consumption: 210.62, Cost: 11.2584 },

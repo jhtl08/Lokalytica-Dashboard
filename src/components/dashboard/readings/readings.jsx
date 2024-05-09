@@ -19,7 +19,7 @@ const Readings = () => {
             <td>
               <div className={styles.user}>
                 <Image
-                  src="/noavatar.png"
+                  src="https://images.pexels.com/photos/9879552/pexels-photo-9879552.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
                   alt=""
                   width={40}
                   height={40}
@@ -40,7 +40,7 @@ const Readings = () => {
             <td>
               <div className={styles.user}>
                 <Image
-                  src="/noavatar.png"
+                  src="https://images.pexels.com/photos/20189631/pexels-photo-20189631/free-photo-of-a-vase-of-yellow-tulips-on-a-table.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
                   alt=""
                   width={40}
                   height={40}
@@ -61,7 +61,7 @@ const Readings = () => {
             <td>
               <div className={styles.user}>
                 <Image
-                  src="/noavatar.png"
+                  src="https://images.pexels.com/photos/20532916/pexels-photo-20532916/free-photo-of-red-haired-woman-in-jacket-on-beach.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
                   alt=""
                   width={40}
                   height={40}

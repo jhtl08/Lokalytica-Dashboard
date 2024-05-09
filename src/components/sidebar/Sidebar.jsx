@@ -27,13 +27,8 @@ const menuItems = [
         icon: <MdSupervisedUserCircle />,
       },
       {
-        title: "Factors",
-        path: "/dashboard/products",
-        icon: <MdVpnKey />,
-      },
-      {
         title: "Advanced",
-        path: "/dashboard/transactions",
+        path: "/dashboard/advanced",
         icon: <MdAnalytics />,
       },
     ],
@@ -56,19 +51,19 @@ const menuItems = [
 ];
 
 const Sidebar = async () => {
-  //const { user } = await auth();
+  const { user } = await auth();
   return (
     <div className={styles.container}>
       <div className={styles.user}>
         <Image
           className={styles.userImage}
-          src="/noavatar.png"
+          src={user.img || "/noavatar.png"}
           alt=""
           width="50"
           height="50"
         />
         <div className={styles.userDetail}>
-          <span className={styles.username}>Lorenzo</span>
+          <span className={styles.username}>{user.username}</span>
           <span className={styles.userTitle}>Administrator</span>
         </div>
       </div>
@@ -87,11 +82,12 @@ const Sidebar = async () => {
           "use server";
           await signOut();
         }}
-      ></form>
-      <button className={styles.logout}>
-        <MdLogout />
-        Logout
-      </button>
+      >
+        <button className={styles.logout}>
+          <MdLogout />
+          Logout
+        </button>
+      </form>
     </div>
   );
 };

@@ -92,6 +92,7 @@ export const authenticate = async (prevState, formData) => {
     if (err.message.includes("CredentialsSignin")) {
       return "Wrong Credentials";
     }
+    console.log(err);
     throw err;
   }
 };
