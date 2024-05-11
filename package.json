@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@next/eslint-plugin-next": "^14.0.1",
+    "@vercel/speed-insights": "^1.0.10",
     "bcrypt": "^5.1.1",
     "mini-css-extract-plugin": "^2.8.1",
     "mongodb": "^6.5.0",
